@@ -4,7 +4,7 @@ Software for the oral history portal ["Jüdisches Hamburg erzählen"(Telling Jew
 
 Published on January 27th 2023.
 
-![Screenshot of the website Telling Jewish Hamburg](Screenshot-juedisches-hamburg-erzaehlen.jpg)
+[![Screenshot of the website Telling Jewish Hamburg](Screenshot-juedisches-hamburg-erzaehlen.jpg)](https://juedisches-hamburg-erzaehlen.de)
 [https://juedisches-hamburg-erzaehlen.de](https://juedisches-hamburg-erzaehlen.de)
 
 ## Documentation
