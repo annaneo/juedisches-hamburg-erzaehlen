@@ -14,6 +14,7 @@ Published on January 27th 2023.
 - [Symfony 5.4 LTS](https://symfony.com/releases/5.4)
 - [Bootstrap 4.4.1](https://github.com/twbs/bootstrap/releases/tag/v4.4.1)
 - [Lightbox by Lokesh Dhakar](https://lokeshdhakar.com/projects/lightbox2)
+- [jQuery JavaScript Library v3.4.1](https://jquery.com)
 
 ### Used symfony packages
 
@@ -47,4 +48,6 @@ View the project at `http://127.0.0.1:8000` or `http://localhost:8000`
 This repository contains the software and the texts of the portal. 
 Image and video content is not part of this github-project. 
 So no images or videos will be displayed in a local setup. 
-Images and videos are to be placed into the folders _juedisches-hamburg-erzaehlen/public/images_ and _juedisches-hamburg-erzaehlen/public/videos_.
+Images and videos are to be placed into the folders _juedisches-hamburg-erzaehlen/public/images/_ and _juedisches-hamburg-erzaehlen/public/videos/_.
+Fonts are to be placed in _juedisches-hamburg-erzaehlen//public/fonts/_ and used JavaScript libraries ([jQuery](https://jquery.com))either added via link or put in _juedisches-hamburg-erzaehlen//public/js/_.
+
