@@ -49,5 +49,6 @@ This repository contains the software and the texts of the portal.
 Image and video content is not part of this github-project. 
 So no images or videos will be displayed in a local setup. 
 Images and videos are to be placed into the folders _juedisches-hamburg-erzaehlen/public/images/_ and _juedisches-hamburg-erzaehlen/public/videos/_.
-Fonts are to be placed in _juedisches-hamburg-erzaehlen//public/fonts/_ and used JavaScript libraries ([jQuery](https://jquery.com))either added via link or put in _juedisches-hamburg-erzaehlen//public/js/_.
+
+Fonts are to be placed in _juedisches-hamburg-erzaehlen//public/fonts/_ and used JavaScript libraries ([jQuery](https://jquery.com)) either added via link or put in _juedisches-hamburg-erzaehlen//public/js/_.
 
