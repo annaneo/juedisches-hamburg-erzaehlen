@@ -1,0 +1,277 @@
+{% extends 'base.html.twig' %}
+
+{% block title %} {{ parent() }} | Übersicht Interviews {% endblock %}
+
+{% block body %}
+
+    <div class="container g-4 py-5">
+
+        <div class="row row-cols-1 row-cols-md-3 g-3">
+            <div class="col">
+                <div class="card shadow-sm mt-5">
+                    <a href="{{ path('camargo') }}">
+                    <img class="img-fluid" src="{{ asset('images/profile/Camargo.png') }}" alt="Foto von Julia Camargo aus dem Gespräch" >
+                    </a>
+                    <div class="card-body">
+                        <a href="{{ path('camargo') }}" title="Interview mit Julia Camargo ansehen"><h3>Julia Camargo</h3></a>
+                        <p>Julia Camargo kam 1995 im Rahmen des Kontingentflüchtlingsgesetzes aus der Ukraine nach
+                            Deutschland. Die für den gemeinsam mit dem Jüdischen Museum Berlin ausgerichteten ...
+                            <a href="{{ path('camargo') }}" title="Weiterlesen und Interview ansehen">[mehr]</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card shadow-sm mt-5">
+                    <img class="img-fluid" src="{{ asset('images/profile/Fenyes.jpg') }}" alt="Foto von Gabriela Fenyes aus dem Gespräch">
+                    <div class="card-body">
+                        <a href="{{ path('fenyes') }}" title="Interview mit Gabriela Fenyes ansehen"><h3>Gabriela Fenyes</h3></a>
+                        <p>Gabriela Fenyes war die erste Frau im Vorstand der Jüdischen Gemeinde Hamburg. In dem
+                            Interviewausschnitt berichtet sie über ihre Gemeindearbeit und das jüdische Leben in Hamburg ...
+                            <a href="{{ path('fenyes') }}" title="Weiterlesen und Interview ansehen">[mehr]</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card shadow-sm mt-5">
+                    <img class="img-fluid" src="{{ asset('images/profile/Guenther_200.jpg') }}" alt="Foto von John Guenther aus dem Gespräch">
+                    <div class="card-body">
+                        <a href="{{ path('guenther') }}" title="Interview mit John Guenther ansehen"><h3>John Guenther</h3></a>
+                        <p>John Günther wurde 1935 in Stuttgart geboren, wo er an der Akademie der Bildenden Künste studierte
+                            und 1961 seinen aus einer orthodox-jüdischen Familie stammenden ...
+                            <a href="{{ path('guenther') }}" title="Weiterlesen und Interview ansehen">[mehr]</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row row-cols-1 row-cols-md-3 g-3">
+            <div class="col">
+                <div class="card shadow-sm mt-5">
+                    <img class="img-fluid" src="{{ asset('images/profile/Guggenheim.jpg') }}" alt="Foto von Barbara Guggenheim aus dem Gespräch">
+                    <div class="card-body">
+                        <a href="{{ path('guggenheim') }}" title="Interview mit Barbara Guggenheim ansehen"><h3>Barbara Guggenheim</h3></a>
+                        <p>Barbara Guggenheim wurde 1957 in Zürich geboren und ist ehemalige Literaturagentin und Gründungsmitglied des Jüdischen Salons am Grindel in Hamburg. In diesem ...
+                            <a href="{{ path('guggenheim') }}" title="Weiterlesen und Interview ansehen">[mehr]</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card shadow-sm mt-5">
+                    <img class="img-fluid" src="{{ asset('images/profile/Heimann.jpg') }}" alt="Foto von Michael Heimann aus dem Gespräch">
+                    <div class="card-body">
+                        <a href="{{ path('heimann') }}" title="Interview mit Michael Heimann ansehen"><h3>Michael Heimann</h3></a>
+                        <p>Michael Heimanns Mutter stammt aus Wien, sein Vater aus Breslau. Beide konnten während der
+                            Zeit des
+                            Nationalsozialismus mit Kindertransporten nach Schweden gelangen ... <a
+                                    href="{{ path('heimann') }}" title="Weiterlesen und Interview ansehen">[mehr]</a></p></div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card shadow-sm mt-5">
+                    <img class="img-fluid" src="{{ asset('images/profile/Horwitz.jpg') }}" alt="Foto von Daphna Horwitz aus dem Gespräch">
+                    <div class="card-body">
+                        <a href="{{ path('horwitz') }}" title="Interview mit Daphna Horwitz ansehen"><h3>Daphna Horwitz</h3></a>
+                        <p>1935 flohen die Großeltern von Daphna Horwitz, Eva und Sam Horwitz, von Hamburg aus vor den
+                            Nationalsozialisten nach Palästina. Dort hatte der Großvater bereits 1925 ...
+                            <a href="{{ path('horwitz') }}" title="Weiterlesen und Interview ansehen">[mehr]</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row row-cols-1 row-cols-md-3 g-3">
+            <div class="col">
+                <div class="card shadow-sm mt-5">
+                    <img class="img-fluid" src="{{ asset('images/profile/Korn.jpg') }}" alt="Foto von Eliana Korn aus dem Gespräch">
+                    <div class="card-body">
+                        <a href="{{ path('korn') }}" alt="Foto von Eliana Korn aus dem Gespräch" title="Interview mit Eliana Korn ansehen"><h3>Eliana Korn</h3></a>
+                        <p>Eliana Korn wurde in Frankfurt am Main geboren, wo sie einen jüdischen Kindergarten sowie anschließend eine jüdische Schule besuchte und Mitglied der Jüdischen Gemeinde  ...
+                            <a href="{{ path('korn') }}" title="Weiterlesen und Interview ansehen">[mehr]</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card shadow-sm mt-5">
+                    <img class="img-fluid" src="{{ asset('images/profile/Lahnstein.jpg') }}" alt="Foto von Sonja Lahnstein-Kandel aus dem Gespräch">
+                    <div class="card-body">
+                        <a href="{{ path('lahnstein') }}" title="Interview mit Sonja Lahnstein-Kandel ansehen"><h3>Sonja Lahnstein-Kandel</h3></a>
+                        <p>Sonja Lahnstein-Kandel wurde 1950 als Sonja Kandel in Zagreb, Jugoslawien, geboren. Mt 16 Jahren kam
+                            sie gemeinsam mit ihren Eltern nach Hamburg, wo ihr Vater ...
+                            <a href="{{ path('lahnstein') }}">[mehr]</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card shadow-sm mt-5">
+                    <img class="img-fluid" src="{{ asset('images/profile/Landshut.jpg') }}" alt="Foto von Judith Landshut aus dem Gespräch">
+                    <div class="card-body">
+                        <a href="{{ path('landshut') }}" title="Interview mit Judith Landshut ansehen"><h3>Judith Landshut</h3></a>
+                        <p>Judith Landshut wurde 1950 in der Tschechoslowakei geboren. 1969 floh sie, gemeinsam mit ihrer
+                            Schwester und ohne ihre Eltern, nach Israel, wo sie zunächst in einem Kibbuz
+                            ...
+                            <a href="{{ path('landshut') }}" title="Weiterlesen und Interview ansehen">[mehr]</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="row row-cols-1 row-cols-md-3 g-3">
+            <div class="col">
+                <div class="card shadow-sm mt-5">
+                    <img class="img-fluid" src="{{ asset('images/profile/Lohse.png') }}" alt="Foto von Michale Lohse aus dem Gespräch">
+                    <div class="card-body">
+                        <a href="{{ path('lohse') }}" title="Interview mit Ulrich Michael Lohse ansehen"><h3>Ulrich Michael Lohse</h3></a>
+                        <p>Der in Hamburg geborene Ulrich Michael Lohse erzählt über seine jüdische Familienherkunft, seine Hinwendung zum jüdischen Glauben und die Rolle der Religion
+                            ...
+                            <a href="{{ path('lohse') }}" title="Weiterlesen und Interview ansehen">[mehr]</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card shadow-sm mt-5">
+                    <img class="img-fluid" src="{{ asset('images/profile/Lubinska.jpg') }}" alt="Foto von Elsara Lubinska aus dem Gespräch">
+                    <div class="card-body">
+                        <a href="{{ path('lubinska') }}" title="Interview mit Elsara Lubinska ansehen"><h3>Elsara Lubinska</h3></a>
+                        <p>Elsara Lubinksa wurde 1945 in Buchara, Usbekistan, geboren und wuchs in der Ukraine auf. Nach einem
+                            Studium in Nowosibirsk wohnte sie in Moskau, von wo aus sie ...
+                            <a href="{{ path('lubinska') }}" title="Weiterlesen und Interview ansehen">[mehr]</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card shadow-sm mt-5">
+                    <img class="img-fluid" src="{{ asset('images/profile/Melamed.jpg') }}" alt="Foto von Carmen Melamed aus dem Gespräch">
+                    <div class="card-body">
+                        <a href="{{ path('melamed') }}" title="Interview mit Carmen Melamed ansehen"><h3>Carmen Melamed</h3></a>
+                        <p>Carmen Melamed wurde 1937 als Tochter einer jüdischen Mutter und eines nicht-jüdischen Vaters
+                            in Hamburg geboren. Nach Abschluss der Schule begann ihre langjährige ...
+                            <a href="{{ path('melamed') }}" title="Weiterlesen und Interview ansehen">[mehr]</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="row row-cols-1 row-cols-md-3 g-3">
+            <div class="col">
+                <div class="card shadow-sm mt-5">
+                    <img class="img-fluid" src="{{ asset('images/profile/Nasirzadeh.jpg') }}" alt="Foto von Mona Nasirzadeh aus dem Gespräch">
+                    <div class="card-body">
+                        <a href="{{ path('nasirzadeh') }}" title="Interview mit Mona Nasirzadeh ansehen"><h3>Mona Nasirzadeh</h3></a>
+                        <p>Anhand einer Fotografie ihrer Eltern, aufgenommen am Hochzeitstag, gibt Mona Nasirzadeh, 1975
+                            in Teheran geboren, Einblicke in die Geschichte ihrer Familie, die 1979 aus dem Iran ...
+                            <a href="{{ path('nasirzadeh') }}" title="Weiterlesen und Interview ansehen">[mehr]</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card shadow-sm mt-5">
+                    <img class="img-fluid" src="{{ asset('images/profile/Parnass.png') }}" alt="Foto von Peggy Parnass aus dem Gespräch">
+                    <div class="card-body">
+                        <a href="{{ path('parnass') }}" title="Interview mit Peggy Parnass ansehen"><h3>Peggy Parnass</h3></a>
+                        <p>Peggy Parnass wurde 1927 in Hamburg geboren. Als Zwölfjährige konnten sie und ihr jüngerer Bruder
+                            mit einem Kindertransport nach Stockholm gebracht ...
+                            <a href="{{ path('parnass') }}" title="Weiterlesen und Interview ansehen">[mehr]</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card shadow-sm mt-5">
+                    <img class="img-fluid" src="{{ asset('images/profile/Pestov.jpg') }}" alt="Foto von Elias Pestov aus dem Gespräch">
+                    <div class="card-body">
+                        <a href="{{ path('pestov') }}" title="Interview mit Elias Pestov ansehen "><h3>Elias Pestov</h3></a>
+                        <p> Elias Pestov wurde in Hamburg geboren und besuchte das Joseph-Carlebach-Bildungshaus, das 2007 als
+                            erste jüdische Schule nach dem Zweiten Weltkrieg eröffnet wurde ...
+                            <a href="{{ path('pestov') }}" title="Weiterlesen und Interview ansehen">[mehr]</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row row-cols-1 row-cols-md-3 g-3">
+            <div class="col">
+                <div class="card shadow-sm mt-5">
+                    <img class="img-fluid" src="{{ asset('images/profile/Rosenblum.jpg') }}" alt="Foto von Avi Rosenblum aus dem Gespräch">
+                    <div class="card-body">
+                        <a href="{{ path('rosenblum') }}" title="Interview mit Avi Rosenblum ansehen"><h3>Avi Rosenblum</h3></a>
+                        <p>Persönliche und politische Gründe führten Avi Rosenblum vor 15 Jahren von Haifa nach Hamburg. Hier
+                            engagiert er sich im soziokulturellen Bereich und versucht
+                            ...
+                            <a href="{{ path('rosenblum') }}" title="Weiterlesen und Interview ansehen">[mehr]</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card shadow-sm mt-5">
+                    <img class="img-fluid" src="{{ asset('images/profile/Trebitsch.png') }}" alt="Foto von Katharina Trebitsch aus dem Gespräch">
+                    <div class="card-body">
+                        <a href="{{ path('trebitsch') }}" title="Interview mit Katharina Trebitsch ansehen"><h3>Katharina Trebitsch</h3></a>
+                        <p>Ein Gebetsbuch der Großmutter, eine Fotografie ihres Großvaters sowie ein Holzschiff ihres
+                            Vaters, der Filmproduzent Gyula Trebitsch, sind die für die 1949 geborene Fernsehproduzentin
+                            ...
+                            <a href="{{ path('trebitsch') }}" title="Weiterlesen und Interview ansehen">[mehr]</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card shadow-sm mt-5">
+                    <img class="img-fluid" src="{{ asset('images/profile/Wallenstein.png') }}" alt="Foto von Abi Wallenstein aus dem Gespräch">
+                    <div class="card-body">
+                        <a href="{{ path('wallenstein') }}" title="Interview mit Abi Wallenstein ansehen"><h3>Abi Wallenstein</h3></a>
+                        <p>Abi Wallenstein wurde 1945 in Jerusalem geboren. Mit 13 Jahren zogen seine Eltern und er nach
+                            Neuss, wo der Vater vor dem Krieg eine Praxis besessen hatte und dessen Räumlichkeiten ...
+                            <a href="{{ path('wallenstein') }}" title="Weiterlesen und Interview ansehen">[mehr]</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row row-cols-1 row-cols-md-3 g-3">
+            <div class="col">
+                <div class="card shadow-sm mt-5">
+                    <img class="img-fluid" src="{{ asset('images/profile/Wittenberg.jpg') }}" alt="Foto von Andreas Wittenberg aus dem Gespräch">
+                    <div class="card-body">
+                        <a href="{{ path('wittenberg') }}" title="Interview mit Andreas Wittenberg ansehen"><h3>Andreas Wittenberg</h3></a>
+                        <p> Andreas Wittenberg wurde 1955 in Hamburg geboren. Seine Eltern, Steffi und Kurt Wittenberg, hatten
+                            sich als jüdische Geflüchtete in Montevideo kennengelernt ...
+                            <a href="{{ path('wittenberg') }}" title="Weiterlesen und Interview ansehen">[mehr]</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card shadow-sm mt-5">
+                    <img class="img-fluid" src="{{ asset('images/profile/Zunik.jpg') }}" alt="Foto von Igor Zunik aus dem Gespräch">
+                    <div class="card-body">
+                        <a href="{{ path('zunik') }}" title="Interview mit Igor Zunik ansehen"><h3>Igor Zunik</h3></a>
+                        <p>Igor Zunik, 1985 in Kiew geboren, kam als Neunjähriger gemeinsam mit seinen Eltern und seiner
+                            Großmutter im Rahmen des Kontingentflüchtlingsgesetzes aus der heutigen Ukraine nach  ...
+                            <a href="{{ path('zunik') }}" title="Weiterlesen und Interview ansehen">[mehr]</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+{% endblock %}
