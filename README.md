@@ -1,6 +1,7 @@
 # Jüdisches Hamburg erzählen
 
 Software for the oral history portal ["Jüdisches Hamburg erzählen"(Telling Jewish Hamburg)](https://juedisches-hamburg-erzaehlen.de) build for the [Institute for the History of the German Jews](https://www.igdj-hh.de).
+
 Published on January 27th 2023.
 
 ![Screenshot of the website Telling Jewish Hamburg](Screenshot-juedisches-hamburg-erzaehlen.jpg)
