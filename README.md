@@ -7,11 +7,9 @@ Published on January 27th 2023.
 
 ### Used frameworks
 
-[Symfony 5.4 LTS](https://symfony.com/releases/5.4)
-
-[Bootstrap 4.4.1](https://github.com/twbs/bootstrap/releases/tag/v4.4.1)
-
-[Lightbox by Lokesh Dhakar](https://lokeshdhakar.com/projects/lightbox2)
+- [Symfony 5.4 LTS](https://symfony.com/releases/5.4)
+- [Bootstrap 4.4.1](https://github.com/twbs/bootstrap/releases/tag/v4.4.1)
+- [Lightbox by Lokesh Dhakar](https://lokeshdhakar.com/projects/lightbox2)
 
 ### Used symfony packages
 
@@ -23,18 +21,22 @@ Published on January 27th 2023.
 ### Setting up the project
 
 Download this package from github.
+
 `git clone https://github.com/annaneo/interview-portal.git`
 
 Navigate into project folder.
+
 `cd juedisches-hamburg-erzaehlen`
 
 Run composer.
+
 `composer install`
 
 Start server.
+
 `symfony serve -d`
 
-View the project at `http://127.0.0.1:8000` or `http://localhost:8000`.
+View the project at `http://127.0.0.1:8000` or `http://localhost:8000`
 
 ### ⚠️ Project resources
 
