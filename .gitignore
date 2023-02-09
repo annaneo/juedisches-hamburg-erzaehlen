@@ -9,6 +9,7 @@
 /public/images/
 /public/videos/
 /public/fonts/
+/public/js/
 /var/
 /vendor/
 ###< symfony/framework-bundle ###
