@@ -43,6 +43,8 @@ Start server.
 
 View the project at `http://127.0.0.1:8000` or `http://localhost:8000`
 
+To get the project running, an [.env file](https://symfony.com/doc/current/configuration.html#configuring-environment-variables-in-env-files) in the top directory is necessary, that is not included in this package.
+
 ### ⚠️ Project resources
 
 This repository contains the software and the texts of the portal. 
