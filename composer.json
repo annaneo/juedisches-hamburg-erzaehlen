@@ -7,7 +7,7 @@
         "php": ">=8.1",
         "ext-ctype": "*",
         "ext-iconv": "*",
-        "sensio/framework-extra-bundle": "^6.2",
+        "sensio/framework-extra-bundle": "*",
         "symfony/apache-pack": "^1.0",
         "symfony/asset": "6.4.*",
         "symfony/console": "6.4.*",
@@ -72,6 +72,7 @@
         }
     },
     "require-dev": {
+        "symfony/phpunit-bridge": "*",
         "symfony/stopwatch": "6.4.*",
         "symfony/web-profiler-bundle": "6.4.*"
     }
