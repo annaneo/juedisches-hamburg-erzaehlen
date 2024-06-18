@@ -149,7 +149,7 @@ class SiteController extends AbstractController
      *
      * @Route("/interview/fenyes", name="fenyes")
      */
-    #[Route('/interview/camargo', name: 'app_fenyes')]
+    #[Route('/interview/fenyes', name: 'app_fenyes')]
     public function fenyes()
     {
         return $this->render('interviews/fenyes.html.twig');

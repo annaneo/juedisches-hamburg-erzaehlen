@@ -17,6 +17,7 @@ h1 {
 	padding-top: 40px;
 }
 
+
 h2 {
 	font-family: 'Roboto Condensed', sans-serif;
 	color: #001976;
@@ -24,9 +25,9 @@ h2 {
 	font-weight: bold;
 }
 
-h3 {
+h3, h3 a {
 	font-family: 'Roboto Condensed', sans-serif;
-	color: #001976;
+	color: #001976 !important;
 	font-size: 1.5rem;
 	font-weight: bold;
 }
