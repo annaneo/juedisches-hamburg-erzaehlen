@@ -3,6 +3,7 @@
 Software for the oral history portal ["Jüdisches Hamburg erzählen"(Telling Jewish Hamburg)](https://juedisches-hamburg-erzaehlen.de) build for the [Institute for the History of the German Jews](https://www.igdj-hh.de).
 
 Published on January 27th 2023.
+Update from Symfony 5.4 LTS to 6.4 LTS in June 2024.
 
 [![Screenshot of the website Telling Jewish Hamburg](Screenshot-juedisches-hamburg-erzaehlen.jpg)](https://juedisches-hamburg-erzaehlen.de)
 [https://juedisches-hamburg-erzaehlen.de](https://juedisches-hamburg-erzaehlen.de)
@@ -11,7 +12,7 @@ Published on January 27th 2023.
 
 ### Used frameworks
 
-- [Symfony 5.4 LTS](https://symfony.com/releases/5.4)
+- [Symfony 6.4 LTS](https://symfony.com/releases/6.4)
 - [Bootstrap 4.4.1](https://github.com/twbs/bootstrap/releases/tag/v4.4.1)
 - [Lightbox by Lokesh Dhakar](https://lokeshdhakar.com/projects/lightbox2)
 - [jQuery JavaScript Library v3.4.1](https://jquery.com)
@@ -25,7 +26,7 @@ Published on January 27th 2023.
 
 ### Setting up the project
 
-Download this package from github.
+Download this package from GitHub.
 
 `git clone https://github.com/annaneo/interview-portal.git`
 
